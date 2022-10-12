@@ -29,7 +29,7 @@ const Portfolio = () => {
         {
             id:2,
             src:movieInfo,
-            demo:'https://kshitishmovie.netlify.app/',
+            demo:'https://kshitish-movvies.netlify.app/',
             code:'https://github.com/Kingkp007/React/tree/master/kpmovie-nation'
         },
         {
