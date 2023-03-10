@@ -6,6 +6,7 @@ import reactImage from "../assets/react.png";
 import node from "../assets/node.png";
 import mongodb from "../assets/mongodb.png";
 import github from "../assets/github.png";
+import redux from "../assets/redux.png";
 
 
 const Experience = () => {
@@ -36,22 +37,29 @@ const Experience = () => {
         },
         {
             id:5,
+            src: redux,
+            title:'Redux',
+            style: 'shadow-purple-500'
+        },
+        {
+            id:6,
             src: node,
             title:'NodeJs',
             style: 'shadow-green-500'
         },
         {
-            id:6,
+            id:7,
             src: mongodb,
             title:'MongoDB',
             style: 'shadow-green-600'
         },
         {
-            id:7,
+            id:8,
             src: github,
             title:'Github',
             style: 'shadow-gray-500'
-        }
+        },
+
         
     ]
 
