@@ -9,11 +9,11 @@ const About = () => {
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
             </div>
             <p className="text-xl mt-20">
-            Hi, I am a Mechanical Engineer by degree and a Web developer by profession. I completed my Bachelor's degree from Savitribai Phule Pune University in 2021 with First class with distinction(8.7 CGPA). I learned programming languages when I was in college and I found interest in it so I decided to pursue my career in computer science field.
+            Hi, I am an Engineer by degree and a Software developer by profession. I joined Infosys as a fresher and now I have 2+ years of awesome handson experience on various tools and technologies like Javascript, React, Node js, Java Springboot, MySQL, MongoDB, Jira, Git. Here in Infosys we work on Agile Methodology for a US client. Also I learn and develop exciing projects in my free time. 
             </p>
             <br />
             <p className="text-xl">
-            I like to read books, play video games. Also I am a part time trader in stock market 
+            I like to read books, learn new thing in free time. Also I like to play video games.
             </p>
         </div>
     </div>

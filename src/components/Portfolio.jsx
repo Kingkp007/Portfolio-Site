@@ -1,10 +1,7 @@
 import React from 'react';
-import keeperApp from "../assets/portfolio/keeperApp.jpeg" ;
-import movieInfo from "../assets/portfolio/movieInfo.jpeg" ;
-import newsLetter from "../assets/portfolio/newsLetter.jpeg" ;
-import toDoList from "../assets/portfolio/toDoList.jpeg" ;
-// import netflixclone from "../assets/portfolio/netflix-clone.jpeg";
-import docsystem from "../assets/portfolio/doctor-appointment.jpeg";
+import blogapp from "../assets/portfolio/blogapp.jpg" ;
+import moviesinfo from "../assets/portfolio/moviesinfo.jpg" ;
+import docsystem from "../assets/portfolio/docapp.jpg";
 
 // import usestate from "../assets/portfolio/usestate.jpg" ;
 
@@ -24,30 +21,18 @@ const Portfolio = () => {
     const portfolios = [
         {
             id:1,
-            src:keeperApp,
-            demo:'https://kshitishmovie.netlify.app/',
-            code:'https://github.com/Kingkp007/React/tree/master/keeper-app'
+            src:blogapp,
+            demo:'https://blogapp-kshitish.netlify.app/login',
+            code:'https://github.com/Kingkp007/MERN-BlogApp'
         },
         {
             id:2,
-            src:movieInfo,
-            demo:'https://kshitish-movvies.netlify.app/',
-            code:'https://github.com/Kingkp007/React/tree/master/kpmovie-nation'
+            src:moviesinfo,
+            demo:'https://moviesinfo-app-kshitish.netlify.app/',
+            code:'https://github.com/Kingkp007/ReactMovieInfoApp'
         },
         {
             id:3,
-            src:newsLetter,
-            demo:'https://protected-sands-71141.herokuapp.com/',
-            code:'https://github.com/Kingkp007/Node-Mongodb'
-        },
-        {
-            id:4,
-            src:toDoList,
-            demo:'https://polar-coast-99614.herokuapp.com/',
-            code:'https://github.com/Kingkp007/ToDoList'
-        },
-        {
-            id:5,
             src:docsystem,
             demo:'https://doctorapp-4vr6.onrender.com/',
             code:'https://github.com/Kingkp007/Production-Doc-Appointment-System'
@@ -59,7 +44,7 @@ const Portfolio = () => {
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
             <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</p>
-                <p className="py-6">Check Out some of my work here</p>
+                <p className="py-6">Check out some of my work here</p>
             </div>
 
 

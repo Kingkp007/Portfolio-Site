@@ -7,6 +7,9 @@ import node from "../assets/node.png";
 import mongodb from "../assets/mongodb.png";
 import github from "../assets/github.png";
 import redux from "../assets/redux.png";
+import sboot from "../assets/sboot.png"
+import java from "../assets/java.png"
+import mysql from "../assets/mysql.png"
 
 
 const Experience = () => {
@@ -49,16 +52,35 @@ const Experience = () => {
         },
         {
             id:7,
+            src: java,
+            title:'Java',
+            style: 'shadow-orange-500'
+        },
+        {
+            id:8,
+            src: sboot,
+            title:'Spring Boot',
+            style: 'shadow-green-500'
+        },
+        {
+            id:9,
+            src: mysql,
+            title:'MySQL',
+            style: 'shadow-blue-500'
+        },
+        {
+            id:10,
             src: mongodb,
             title:'MongoDB',
             style: 'shadow-green-600'
         },
         {
-            id:8,
+            id:11,
             src: github,
             title:'Github',
             style: 'shadow-gray-500'
         },
+
 
         
     ]
